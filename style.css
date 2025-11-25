@@ -1,0 +1,25 @@
+/* 2ch風 CSS */
+body{
+  background:#efefef;
+  font-family: "MS PGothic", "Arial", sans-serif;
+  margin:0;
+  padding:0 10px;
+  color:#000;
+}
+header{background:#0047ab;color:#fff;padding:10px 12px}
+h1,h2{margin:0 0 8px 0}
+a{color:#0000ff;text-decoration:none}
+a:hover{text-decoration:underline}
+.post, .thread-item{
+  background:#fff;border:1px solid #ccc;padding:8px;margin:8px 0;
+}
+.response-number{color:#0044cc;font-weight:bold;margin-right:6px}
+.response-body{white-space:pre-wrap}
+.response-image{max-width:250px;display:block;margin-top:6px;border:1px solid #aaa}
+.create{background:#fff;padding:10px;border:1px solid #ddd;margin:10px 0}
+.alert{background:#ffefef;border:1px solid #ff8888;padding:8px;margin:10px 0}
+@media (max-width:600px){
+  body{padding:6px}
+  .response-image{max-width:100%}
+  .create textarea, .create input{width:100%;box-sizing:border-box}
+}

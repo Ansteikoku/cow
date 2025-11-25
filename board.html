@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>板 - スレ一覧</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/board.js" defer></script>
+</head>
+<body>
+<header><h1 id="board-title">板</h1></header>
+<main>
+  <section class="create">
+    <input id="thread-title" placeholder="スレタイ (必須)">
+    <textarea id="thread-content" placeholder="本文 (任意)"></textarea>
+    <input type="file" id="thread-image" accept="image/*">
+    <button id="create-thread">スレ作成</button>
+  </section>
+
+  <section>
+    <h2>スレッド一覧</h2>
+    <input id="search-q" placeholder="スレッド検索">
+    <button id="search-btn">検索</button>
+    <div id="thread-list">読み込み中...</div>
+    <div id="pagination"></div>
+  </section>
+</main>
+<footer>&copy; 2025 掲示板</footer>
+</body>
+</html>

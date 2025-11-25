@@ -1,0 +1,10 @@
+{
+  "name": "bbs-complete-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "archive": "node workers/archive_threads.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.25.0"
+  }
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>スレッド</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/compress.js@1.1.2/dist/compress.min.js" defer></script>
+  <script type="module" src="js/thread.js" defer></script>
+  <script type="module" src="js/anchor.js" defer></script>
+</head>
+<body>
+<header><h1 id="thread-title">スレッド</h1></header>
+<main>
+  <section id="thread-meta"></section>
+
+  <section id="posts">読み込み中...</section>
+
+  <section id="reply-area">
+    <h3>書き込む</h3>
+    <input id="name" placeholder="名前 (省略可)">
+    <textarea id="message" placeholder="本文"></textarea>
+    <input type="file" id="image" accept="image/*">
+    <button id="send">書き込む</button>
+  </section>
+
+  <div id="next-thread"></div>
+</main>
+<footer>&copy; 2025 掲示板</footer>
+</body>
+</html>
